@@ -1,4 +1,5 @@
 # PIZZA SALES ANALYSIS
+----------------------------------
 
 ![](https://github.com/BiolaBolade/Pizza-Sales-Analysis/blob/main/pizza_sales/Pizza%20Header.jpg)
 ---------
