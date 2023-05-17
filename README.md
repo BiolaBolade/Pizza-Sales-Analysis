@@ -23,6 +23,8 @@ The dataset was downloaded from [Maven](https://www.mavenanalytics.io/blog/maven
 4. What's our average order value?
 5. How well are we utilizing our seating capacity? (we have 15 tables and 60 seats).
 
+### **Tool Used:** Power BI
+
 ### Approach to Analysis
 ### 1. Extraction, Transformation and Loading (ETL)
 I checked through the datasets to check for errors
