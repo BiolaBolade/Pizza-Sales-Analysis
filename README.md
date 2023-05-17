@@ -54,12 +54,12 @@ I then applied the table contents to create a model in **Power BI**
 
 ### 3. Data Analysis Expression (DAX)
 - I created my Measures Table by clicking on "Enter Data" on the home ribbon.
-- I created a new measure (Total Orders) using; Total Order = COUNTA(orders[order_id])
+- I created a new measure **"Total Orders"** using; Total Order = COUNTA(orders[order_id])
 - The "order_details" table does not contain a column for prize of pizzas and we need the prize column to be in the same table with the order details in order to calculate the total revenue; To do this, I created a new column to bring the price table to the "order_details" table, Using; Price = RELATED(pizzas[price]).
 - I then created another column to calculate the price for each order using; Total Price = order_details[quantity] * order_details[Price].
-- I created a new measure ("Total Revenue") by summing up the "Total Price" Column, Using; Total Revenue = SUM(order_details[Total Price])
-- I created a measure ("Average Order revenue") Using; Average Order Value = [Total Revenue] / [Total Order].
-- I created a measure ("Order per Quarter) Using; Order per Quarter = [Total Order] / DISTINCTCOUNT(orders[Name of Quarter]).
+- I created a new measure **"Total Revenue"** by summing up the "Total Price" Column, Using; Total Revenue = SUM(order_details[Total Price])
+- I created a measure **"Average Order revenue"** Using; Average Order Value = [Total Revenue] / [Total Order].
+- I created a measure **"Order per Quarter"** Using; Order per Quarter = [Total Order] / DISTINCTCOUNT(orders[Name of Quarter]).
 
 ### DASHBOARD: 
 I created an interactive and dynamic dashboard to help Plato's Pizza understand business transactions and to drive more sales and work efficiently. 
