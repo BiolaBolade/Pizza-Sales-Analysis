@@ -3,7 +3,10 @@
 
 ![](https://github.com/BiolaBolade/Pizza-Sales-Analysis/blob/main/pizza_sales/Pizza%20Header.jpg)
 ---------
-### DATASET:
+### Introduction:
+_Things are going OK at Plato's, but there's room for improvement. Plato's Pizza have been collecting transactional data for the past year, but haven't been able to put it to good use. As a Data Analyst, Plato's Pizza needs me to analyze the data and put together a report to help them find opportunities to drive more sales and work more efficiently._
+
+### Dataset:
 
 The dataset was downloaded from [Maven](https://www.mavenanalytics.io/blog/maven-pizza-challenge) Analytics website.
 ### About the dataset
